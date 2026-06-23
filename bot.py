@@ -5,7 +5,6 @@ from google.genai import types
 def run_my_search_bot():
     print("🤖 Your AI Search Agent is booting up...")
     
-    # Secure setup: Python will automatically find your hidden GEMINI_API_KEY environment variable!
     client = genai.Client()
     
     print("🤖 Online! Ask me anything (or type 'exit' to quit).\n")
